@@ -24,9 +24,6 @@ class DbUtilServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Register the controllers.
-        $this->app->make('Hopp\DbUtil\Controllers\DbUtilFunctions');
-
         // Register 'permissions' instance container to out Permissions object.
         $this->app['DbUtil'] = $this->app->share(function($app)
         {
