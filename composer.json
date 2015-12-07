@@ -4,7 +4,8 @@
     "type": "database",
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.1.*"
+        "illuminate/support": "5.1.*",
+        "illuminate/console": "*"
     },
     "license": "MIT",
     "authors": [
