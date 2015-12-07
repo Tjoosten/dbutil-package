@@ -2,7 +2,7 @@
 
 namespace Hopp\DbUtil\Console;
 
-class UtilCommand
+class UtilCommand extends Console
 {
     /**
      * The name and signature of the console command.
