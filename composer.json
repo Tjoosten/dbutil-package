@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hopp\\DbUtil": "src/"
+            "Hopp\\DbUtil\\": "src/"
         }
     },
     "minimum-stability": "stable"
