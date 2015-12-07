@@ -1,0 +1,23 @@
+{
+    "name": "hopp/dbutil",
+    "description": "A database utility wrapper for the template",
+    "type": "database",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "5.1.*",
+        "illuminate/support": "5.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tjoosten",
+            "email": "Tjoosten3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Hopp\\DbUtil": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
