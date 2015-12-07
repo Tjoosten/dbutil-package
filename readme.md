@@ -18,7 +18,7 @@ Hopp\dbutil\ServiceProvider::class
 
 If you like to use the facade, add this to your facades in `config/app.php`
 
-```
+```php
 'DbUtil' => Hopp\DbUtil\Facade::class
 ```
 
@@ -29,3 +29,5 @@ If you discover any security related issues, please email Topairy@gmail.com inst
 ## Versioning
 
 ## Copyright and license
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
