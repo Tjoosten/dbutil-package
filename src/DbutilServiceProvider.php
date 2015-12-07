@@ -25,13 +25,7 @@ class DbUtilServiceProvider extends ServiceProvider
     public function register()
     {
         // Artisan commands 
-        $this->app['db.util'] = $this->app->share(
-            function ($app) {
-                return new \Hopp\DbUtil\Console\UtilCommand();
-            }
-        );
-
-        $this->commands('db.util');
+        $this->commands(\Hopp\DbUtil\Console\UtilCommand::class)
         
         // Register 'permissions' instance container to out Permissions object.
         $this->app['DbUtil'] = $this->app->share(function()
