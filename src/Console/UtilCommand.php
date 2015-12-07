@@ -20,8 +20,6 @@ class UtilCommand
 
     /**
      * Create a new command instance.
-     *
-     * @internal param DripEmailer $drip
      */
     public function __construct()
     {
@@ -33,6 +31,7 @@ class UtilCommand
      * @return mixed
      */
     public function handle()
+
     {
     }
 }
