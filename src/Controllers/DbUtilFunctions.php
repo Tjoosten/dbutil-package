@@ -79,6 +79,14 @@ class DbUtilFunctions
         // return
         return $tables;
     }
+    
+    /**
+     * repair table. 
+     */
+    public static function repaire($table)
+    {
+       \DB::connection($connection)->getPdo()->query('repair table '.$table);
+    }
 
     /**
      * Check if table exists.
