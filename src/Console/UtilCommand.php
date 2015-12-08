@@ -11,14 +11,14 @@ class UtilCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'email:send {user}';
+    protected $signature = 'db:optimize';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Send drip e-mails to a user';
+    protected $description = 'Optimize the database.';
 
     /**
      * Create a new command instance.
@@ -34,7 +34,6 @@ class UtilCommand extends Command
      * @return mixed
      */
     public function handle()
-
     {
     }
 }
