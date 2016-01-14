@@ -1,6 +1,6 @@
 # Laravel dbutil
 
-(description)
+Simple MySQL laravel Wrapper for database management.
 
 ## Installation 
 
