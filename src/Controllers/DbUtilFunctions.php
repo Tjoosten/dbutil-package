@@ -81,7 +81,7 @@ class DbUtilFunctions
     }
     
     /**
-     * repair table. 
+     * Repair table. 
      */
     public static function repaire($table)
     {
