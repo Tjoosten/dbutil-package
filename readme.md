@@ -2,6 +2,8 @@
 
 Simple MySQL laravel Wrapper for database management.
 
+**This repo is not in active development.** 
+
 ## Installation 
 
 Require this package with composer: 
